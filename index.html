@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+            body {
+                background-color: #34383a !important;
+                font-family: "Nunito Sans", sans-serif;
+                color: white !important;
+            }
+            
+            .card-black-bg {
+                background-color: #46442f !important;
+            }
+            
+            .card>img {
+                height: 200px;
+                object-fit: cover;
+            }
+            
+            .card-body-ht {
+                height: 210px;
+            }
+            
+            .card-body>p {
+                margin-bottom: 0.5rem;
+            }
+            
+            .card-title {
+                font-weight: 700;
+            }
+            
+            .card-text {
+                display: flex;
+                justify-content: flex-start;
+            }
+            
+            @media screen and (min-width: 650px) {
+                .card>img {
+                    height: 150px;
+                    object-fit: cover;
+                }
+                .card-body-ht {
+                    height: 250px;
+                }
+            }
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" style="margin-top: 45px;">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card card-black-bg mb-5"><img src="https://flagpedia.net/data/flags/w580/au.png" class="card-img-top">
+                    <div class="card-body card-body-ht">
+                        <h5 class="card-title mb-4">Australia</h5>
+                        <p class="card-text"><b style="margin-right: 15px;">Population</b>
+                            <p>91,657,312</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Region</b>
+                            <p>Aus</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Capital</b>
+                            <p>Canberra</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card card-black-bg mb-5"><img src="https://flagpedia.net/data/flags/w580/de.png" class="card-img-top">
+                    <div class="card-body card-body-ht">
+                        <h5 class="card-title mb-4">Germany</h5>
+                        <p class="card-text"><b style="margin-right: 15px;">Population</b>
+                            <p>81,770,900</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Region</b>
+                            <p>Europe</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Capital</b>
+                            <p>Berlin</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card card-black-bg mb-5"><img src="https://flagpedia.net/data/flags/w580/in.png" class="card-img-top">
+                    <div class="card-body card-body-ht">
+                        <h5 class="card-title mb-4">India</h5>
+                        <p class="card-text"><b style="margin-right: 15px;">Population</b>
+                            <p>1,3179,984,812</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Region</b>
+                            <p>Asia</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Capital</b>
+                            <p>New Delhi</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card card-black-bg mb-5"><img src="https://flagpedia.net/data/flags/w580/kr.png" class="card-img-top">
+                    <div class="card-body card-body-ht">
+                        <h5 class="card-title mb-4">South Korea</h5>
+                        <p class="card-text"><b style="margin-right: 15px;">Population</b>
+                            <p>40,400,000</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Region</b>
+                            <p>Asia</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Capital</b>
+                            <p>Seoul</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card card-black-bg mb-5"><img src="https://flagpedia.net/data/flags/w580/us.png" class="card-img-top">
+                    <div class="card-body card-body-ht">
+                        <h5 class="card-title mb-4">United States of America</h5>
+                        <p class="card-text"><b style="margin-right: 15px;">Population</b>
+                            <p>323,947,000</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Region</b>
+                            <p>North America</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Capital</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card card-black-bg mb-5"><img src="https://flagpedia.net/data/flags/w580/tr.png" class="card-img-top">
+                    <div class="card-body card-body-ht">
+                        <h5 class="card-title mb-4">Republic of Turkey</h5>
+                        <p class="card-text"><b style="margin-right: 15px;">Population</b>
+                            <p>83 154 997</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Region</b>
+                            <p>Asia</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Capital</b>
+                            <p>Ankara</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card card-black-bg mb-5"><img src="https://media.istockphoto.com/vectors/flag-of-pakistan-vector-id472330681?k=20&m=472330681&s=612x612&w=0&h=5Qdo76qlQlFIqKDir3kldQB_cgQ227WC0irPs1PxIN4=" class="card-img-top">
+                    <div class="card-body card-body-ht">
+                        <h5 class="card-title mb-4">Pakistan</h5>
+                        <p class="card-text"><b style="margin-right: 15px;">Population</b>
+                            <p>3 723 464</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Region</b>
+                            <p>Asia</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Capital</b>
+                            <p>Tiblisi</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card card-black-bg mb-5"><img src="https://flagpedia.net/data/flags/w580/ru.png" class="card-img-top">
+                    <div class="card-body card-body-ht">
+                        <h5 class="card-title mb-4">Russian Federation</h5>
+                        <p class="card-text"><b style="margin-right: 15px;">Population</b>
+                            <p>146 780 720</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Region</b>
+                            <p>Europe</p>
+                        </p>
+                        <p class="card-text"><b style="margin-right: 15px;">Capital</b>
+                            <p>Moscow</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const countries = [{
+            image: "https://flagpedia.net/data/flags/w580/de.png",
+            country: "Germany",
+            population: "81,770,900",
+            region: "Europe",
+            capital: "Berlin"
+        }, {
+            image: "https://flagpedia.net/data/flags/w580/au.png",
+            country: "Australia",
+            population: "91,657,312",
+            region: "Aus",
+            capital: "Canberra"
+        }, {
+            image: "https://flagpedia.net/data/flags/w580/in.png",
+            country: "India",
+            population: "1,3179,984,812",
+            region: "Asia",
+            capital: "New Delhi"
+        }, {
+            image: "https://flagpedia.net/data/flags/w580/kr.png",
+            country: "South Korea",
+            population: "40,400,000",
+            region: "Asia",
+            capital: "Seoul"
+        }, {
+            image: "https://flagpedia.net/data/flags/w580/us.png",
+            country: "United States of America",
+            population: "323,947,000",
+            region: "North America",
+            capital: "Washington,D.C"
+        }, {
+            image: "https://flagpedia.net/data/flags/w580/tr.png",
+            country: "Republic of Turkey",
+            population: "83 154 997",
+            region: "Asia",
+            capital: "Ankara"
+        }, {
+            image: "https://flagpedia.net/data/flags/w580/ge.png",
+            country: "Georgia",
+            population: "3 723 464",
+            region: "Asia",
+            capital: "Tiblisi"
+        }, {
+            image: "https://flagpedia.net/data/flags/w580/ru.png",
+            country: "Russian Federation",
+            population: "146 780 720",
+            region: "Europe",
+            capital: "Moscow"
+        }];
+
+        const mainContainer = document.createElement('div')
+        mainContainer.setAttribute('class', 'container')
+
+        document.body.append(mainContainer)
+
+        const row1 = document.createElement('div')
+        row1.setAttribute('class', 'row')
+        row1.style.marginTop = '45px'
+
+        mainContainer.append(row1)
+
+        countries.forEach((country) => {
+
+            // ----------------------------column template starts------------------------------------------------
+
+            const column = document.createElement('div')
+            column.setAttribute('class', 'col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3')
+
+            row1.append(column)
+
+            const card = document.createElement('div')
+            card.setAttribute('class', 'card card-black-bg mb-5')
+
+            column.append(card)
+
+            const image = document.createElement('img')
+            image.setAttribute('src', `${country.image}`)
+            image.setAttribute('class', 'card-img-top')
+
+            const cardBody = document.createElement('div')
+            cardBody.setAttribute('class', 'card-body card-body-ht')
+
+            const cardHead = document.createElement('h5')
+            cardHead.setAttribute('class', 'card-title mb-4')
+            cardHead.innerText = country.country
+
+            const cardPara1 = document.createElement('p')
+            cardPara1.setAttribute('class', 'card-text')
+
+            const cardBold1 = document.createElement('b')
+            cardBold1.innerText = 'Population'
+            cardBold1.style.marginRight = '15px'
+
+            const countryPara1 = document.createElement('p')
+            countryPara1.innerText = country.population
+
+            cardPara1.append(cardBold1, countryPara1)
+
+            const cardPara2 = document.createElement('p')
+            cardPara2.setAttribute('class', 'card-text')
+
+            const cardBold2 = document.createElement('b')
+            cardBold2.innerText = 'Region'
+            cardBold2.style.marginRight = '15px'
+
+            const countryPara2 = document.createElement('p')
+            countryPara2.innerText = country.region
+
+            cardPara2.append(cardBold2, countryPara2)
+
+            const cardPara3 = document.createElement('p')
+            cardPara3.setAttribute('class', 'card-text')
+
+            const cardBold3 = document.createElement('b')
+            cardBold3.innerText = 'Capital'
+            cardBold3.style.marginRight = '15px'
+
+            const countryPara3 = document.createElement('p')
+            countryPara3.innerText = country.capital
+
+            cardPara3.append(cardBold3, countryPara3)
+
+            cardBody.append(cardHead, cardPara1, cardPara2, cardPara3)
+
+            card.append(image, cardBody)
+
+
+            // ----------------------------column template ends------------------------------------------------
+        })
+    </script>
+</body>
+
+</html>
